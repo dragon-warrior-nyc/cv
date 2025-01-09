@@ -1,0 +1,425 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,roman]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\usepackage{xcolor}
+
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\usepackage{ragged2e}
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+%\addtolength{\textheight}{3in}
+\usepackage[scale=0.83]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Cun (Matthew)}% Your first name
+\familyname{Mu} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+%\title{Curriculum Vitae}
+%\address{Shapiro CEPSR Rm710, Columbia University}{New York, NY 10025}
+\email{mucun1988@gmail.com}
+\mobile{(646)-468-8259}
+%\fax{(000) 111 1113}
+%\homepage{www.columbia.edu/~sl3479}{www.columbia.edu/$\sim$sl3479} % The first argument is the url for the clickable link, the second argument is the url displayed in the template - this allows special characters to be displayed such as the tilde in this example
+%\extrainfo{additional information}
+%\photo[70pt][0.4pt]{pictures/picture} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"A witty and playful quotation" - John Smith}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+\vspace*{-6mm}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{2011--2017}{Doctor of Philosophy}{Operations Research, Columbia University}{New York}{}{
+	\begin{itemize}
+		\item 	Dissertation Title: {\em Structured Tensor Recovery and Decomposition}
+		\item Advisors: {Donald Goldfarb} and {John Wright}
+	\end{itemize}
+ }
+
+\cventry{2007--2011}{Bachelor of Science with Double Majors}{Quantitative Finance \& Statistics, National University of Singapore}{Singapore}{}{}
+
+\cventry{2009}{Exchange Student}{Dept. of Combinatorics \& Optimization, University of Waterloo}{Canada}{}{}
+
+%\cventry{2007--2010}{Bachelor of Art (Dual Degree)}{Economics, Peking University}{Beijing}{}{}
+
+
+%----------------------------------------------------------------------------------------
+%                                   RESEARCH INTERESTS
+%----------------------------------------------------------------------------------------
+
+
+%% For research position:
+\section{Work Experience}
+%Sequential analysis (i.e., sequential hypothesis testing and change-point detection) in distributed systems; statistical machine learning with applications to  power systems, communication systems, and IoT.
+\vspace{4mm}
+{\large{\em{Walmart Labs, Hoboken, NJ}}}
+\vspace{2.5mm}
+
+\cventry{Dec. 2020 -- Present}{Senior Data Science Manager II}{Search Algorithms}{}{}{
+	\begin{itemize}
+		\item Lead and manage a research team of data scientists and machine learning engineers towards improving Walmart omni-channel product search experience
+	\end{itemize}
+}
+
+\cventry{Aug. 2019 -- Dec. 2020}{Senior Data Science Manager I}{Search Algorithms}{}{}{
+	\begin{itemize}
+		\item Lead and manage a research team of 3 data scientists and 4 machine learning engineers to improve ranking algorithms for product search systems of Walmart.com and Walmart stores
+		\item Filed two patent applications
+    \end{itemize}
+}
+
+\cventry{Mar. 2019 -- Aug. 2019}{Data Science Manager}{Search Algorithms}{}{}{
+	\begin{itemize}
+		\item  Lead and manage a team of 3 data scientists on algorithmic development for Walmart store search
+	\end{itemize}
+}
+
+\vspace{2mm}
+\cventry{Jan. 2017 -- Feb. 2019}{Senior Data Scientist}{Jet.com}{}{}{
+\begin{itemize}
+\item Researched and developed visual search system on top of full-text search engine, to better facilitate multimedia search and recommendation in eCommerce [1,2,5]
+\vspace*{1mm}
+\item Designed shipping boxes for Walmart eCommerce, leading to a 3\%-reduction in transportation cost and a 5\%-reduction in shipping material cost [4]
+\end{itemize}}
+
+%\vspace{4mm}
+%{\large{\em{Walmart eCommerce, Hoboken, NJ}}}
+%\vspace{2.5mm}
+\vspace{2mm}
+\cventry{Oct. 2016 -- Dec. 2016}{Part-time Consultant}{Jet.com}{}{}{\begin{itemize}
+\item Developed and executed a data-driven approach for the supply chain team to better order products from Procter \& Gamble (P\&G), leading to 80\%-reduction in
+out-of-inventory rate and 30\%-reduction in operational cost \vspace*{0.5mm} 
+\item Renovated the order packing algorithm for the fulfillment team based on mixed integer optimization, leading to 2\%-reduction in the number of boxes
+and 5\%-increase in the space utilization rate
+\end{itemize}} 
+
+\vspace{4mm}
+{\large{\em{NEC Laboratories America, Inc., Princeton, NJ}}}
+\vspace{2.5mm}
+
+
+\cventry{May 2015 -- Aug. 2015}{Research Intern}{}{}{}{\begin{itemize}\item Designed a novel decentralized and fault-tolerant optimization algorithm  to coordinate multi-core systems and clusters over peer-to-peer netowrk\vspace*{0.5mm} 
+\item Published a conference paper [11] and a patent [16]
+\end{itemize}}
+
+
+\vspace{4mm}
+{\large{\em{Columbia University, New York, NY}}}
+\vspace{2mm}
+
+
+\cventry{Sep 2011 --  Dec. 2016}{Teaching Assistant}{}{}{}{
+\begin{itemize}
+\item Prepared recitation sessions, exam questions and solutions for a variety of Ph.D., master and undergraduate classes \vspace*{0.5mm} 
+\item List of courses TAed: Optimization I (Ph.D. core course), Non-Linear Optimization, Simulation, Financial Engineering, Stochastic Models and Deterministic Models
+\end{itemize}}
+%{Our group are responsible for optimization and prototyping strategic platform elements in AT\&T's Domain 2.0 architecture that leverages cloud technologies, Network Function Virtualization, and Software Defined Networking. I contribute to projects of network security, virtual machine health monitoring. 
+%%to intelligently scale AT\&T's network, enable rapid deployment of cutting-edge services, and provide industry leading security, performance and reliability. 
+%Using machine learning and big data analytics, I develop new statistical methods for analyzing massive data sets to learn about our network and our customers, and to improve services and operations. I am also responsible for developing R libraries/packages for useful statistical tools.  \vspace*{1mm}
+%
+%Specific projects:\vspace*{2mm}
+%\begin{itemize}
+%\item AT\&T Collaborate (Trinity): Understand customer behaviors from call detail record---log data that consist of a large set of customer call features. Main techniques include survival analysis, factor analysis, customer classification.\vspace*{2mm}
+%\item Watchdog as a service: Monitor the health of virtual machine in AT\&T software-defined-network based on ceilometer data that provide utilization of CPU and memory, and network throughput. Main techniques include multivariate analysis, regression, and anomaly detection. 
+%\end{itemize}}
+\vspace*{1pt}
+%\cvitem{Toolkits}{Time series analysis, stochastic control, dynamic programming, and statistical learning.}
+%\vspace*{1mm}
+
+%\section{Research Interest}
+%Optimization theories and algorithms with applications in data science and artificial intelligence. Recent research includes deep learning, computer vision, information retrieval and natural language processing.
+
+%----------------------------------------------------------------------------------------
+%                                   PUBLICATIONS
+%----------------------------------------------------------------------------------------
+\section{Publications}
+\vspace*{1mm}
+{\color{color1} {\bfseries Google Scholar citations: 950 as of Feb 8, 2021}. \href{https://scholar.google.com/citations?user=Aqf-7Y0AAAAJ&hl=en}{[link]}}
+
+%\subsection{Journal Papers}
+\vspace*{3mm}
+%{\color{color1} {\bfseries Change-Point Detection in the Cyber-Networks} (4 journal papers and 2 conference papers)}\vspace*{3mm}
+
+\vspace*{1mm}
+\begin{enumerate}
+\item[{[1]}] {\bfseries Cun Mu}, Jun Zhao, Guang Yang, Binwei Yang and Zheng Yan. ``Fast and Exact Nearest Neighbor Search in Hamming Space on Full-Text Search Engines,'' {\em Proceedings of International Conference on Similarity Search and Applications (SISAP)}, 2019.
+\item[{[2]}] {\bfseries Cun Mu}, Binwei Yang, and Zheng Yan. ``An Empirical Comparison of FAISS and FENSHSES for Nearest Neighbor Search in Hamming Space, '' {\em Proceedings of ACM Special Interest Group on Information Retrieval (SIGIR) Workshop on eCommerce}, 2019.
+\item[{[3]}] {\bfseries Cun Mu}, Guang Yang, and Zheng Yan. ``Revisiting skip-gram negative sampling model with rectification, '' {\em Proceedings of Computing Conference}, 2019.	
+\item[{[4]}] Guang Yang, {\bfseries Cun Mu}. ``A Machine Learning Approach to Shipping Box Design,'' {\em Proceedings of Intelligent Systems Conference}, 2019.
+\vspace*{2mm}
+\item[{[5]}] {\bfseries Cun Mu}, Jun Zhao, Guang Yang, Jing Zhang and Zheng Yan. ``Towards practical visual search engine within Elasticsearch,'' {\em Proceedings of ACM Special Interest Group on Information Retrieval (SIGIR) Workshop on eCommerce}, 2018.
+\vspace*{2mm}
+\item[{[6]}] Donald Goldfarb, {\bfseries Cun Mu}, John Wright and Chaoxu Zhou, ``Using negative curvature in solving nonlinear programs,'' {\em Computational Optimization and Applications}, vol. 68, no. 3, pp. 479-502, 2017.
+\vspace*{2mm}
+\item[{[7]}] {\bfseries Cun Mu}, Daniel Hsu and Donald Goldfarb, ``Greedy approaches to symmetric orthogonal tensor decomposition,'' {\em SIAM Journal on Matrix Analysis and Applications}, vol. 38, no. 4, pp. 1210-1226, 2017.
+\vspace*{2mm}
+\item[{[8]}] {\bfseries Cun Mu}, Yuqian Zhang, John Wright, and Donald Goldfarb, ``Scalable robust matrix recovery: Frank-Wolfe meets proximal methods,'' {\em SIAM Journal on Scientific Computing}, vol. 38, no. 5, pp.  A3291-A3317, 2016. 
+\vspace*{2mm}
+\item[{[9]}] Bo Huang, {\bfseries Cun Mu}, Donald Goldfarb, John Wright, ``Provable models for robust low-rank tensor completion,'' {\em Pacific Journal of Optimization}, vol. 11,  no. 2, pp. 339--364, 2015.
+\vspace*{2mm}
+\item[{[10]}] {\bfseries Cun Mu}, Daniel Hsu and Donald Goldfarb, ``Successive rank-one approximations for nearly orthogonally decomposable symmetric tensors,'' {\em SIAM Journal on Matrix Analysis and Applications}, vol. 36, no. 4, pp. 1638-1659, 2015.
+\vspace*{2mm}
+\item[{[11]}] {\bfseries Cun Mu}, Asim Kadav, Erik Kruus, Donald Goldfarb, and Renqiang Min. ``Random walk distributed dual averaging method for decentralized consensus optimization, '' {\em Advances in Neural Information Processing Systems (NeurIPS) Optimization Workshop}, 2015.
+\vspace*{2mm}
+\item[{[12]}] Wei Liu, {\bfseries Cun Mu}, Rongrong Ji, Shiqian Ma, John R. Smith, and Shih-Fu Chang.  ``Low-rank similarity metric learning in high dimensions,'' {\em Proceedings of AAAI Conference on Artificial Intelligence}, 2015. 
+%\end{enumerate}
+\vspace*{2mm}
+\item[{[13]}] Wei Liu, {\bfseries Cun Mu}, Sanjiv Kumar, and Shih-Fu Chang. ``Discrete graph hashing,'' {\em Advances in Neural Information Processing Systems (NeurIPS)}, 2014.
+\vspace*{2mm}
+ \item[{[14]}] {\bfseries Cun Mu}, Bo Huang, John Wright, and Donald Goldfarb.  ``Square deal: Lower bounds and improved relaxations for tensor recovery,'' {\em Proceedings of International Conference on Machine Learning (ICML)}, 2014.
+ \vspace*{2mm}
+\item[{[15]}] {Yuqian Zhang}, {\bfseries Cun Mu}, Han-Wen Kuo, and John Wright. ``Toward guaranteed illumination models for non-convex objects,'' {\em Proceedings of IEEE International Conference on Computer Vision (ICCV)}, 2013.
+
+\vspace*{3mm}
+{\color{color1} Patents Issued}
+\vspace*{1mm}
+\item[{[16]}] Asim Kadav, Renqiang Min, Erik Kruus, and {\bfseries Cun Mu}. ``System and method for fault-tolerant parallel learning over non-i.i.d.  data,'' {\em US Patent US10291485B2
+}, filed Oct. 18, 2016 and issued May 14, 2019.
+\end{enumerate}
+
+%----------------------------------------------------------------------------------------
+%                                   PUBLICATIONS
+%----------------------------------------------------------------------------------------
+%\section{Publications}
+%\vspace*{-1mm}
+%\subsection{Journal Papers}
+%\begin{enumerate}
+%\vspace*{1mm}
+%\item {\bfseries Shang Li} and Xiaodong Wang, ``Cooperative Change Detection for Voltage Quality Monitoring in Smart Grids'', {\em IEEE Trans. on Information Forensics and Security, vol. 11, no. 1, pp. 86-99, Jan. 2016}.
+%\vspace*{2mm}
+%\item {\bfseries Shang Li}, Yasin Y{\i}lmaz, and Xiaodong Wang, ``Quickest Detection of False Data Injection Attack in Wide-Area Smart Grids'', {\em IEEE Transactions on Smart Grid, vol. 6, no. 6, pp. 2725-2735, Nov. 2015}.
+%\vspace*{2mm}
+%\item {\bfseries Shang Li} and Xiaodong Wang, ``{Quickest Attack Detection in Multi-Agent Reputation Systems}'', {\em IEEE Journal of Selected Topics in Signal Processing}, vol. 8, no. 4, pp. 653-666, Aug. 2014.  
+%\vspace*{2mm}
+%\item {\bfseries Shang Li}, Matthew R. McKay, and Yang Chen, ``{On the Distribution of MIMO Mutual Information: An In-Depth Painlev\'{e}-Based Characterization}'', {\em IEEE Transactions on Information Theory}, vol. 59, no. 9, pp. 5271-5296, Sep. 2013.
+%\vspace*{2mm}
+%\item {\bfseries Shang Li} and Xiaodong Wang, ``Optimal Joint Detection and Estimation Based on Decision-Dependent Bayesian Cost'', to appear, {\em IEEE Transactions on Signal Processing}.
+%\vspace*{2mm}
+%
+%\item {\bfseries Shang Li}, Xiaoou Li, Xiaodong Wang, and Jingchen Liu, ``Decentralized Sequential Composite Hypothesis Test Based on One-Bit Communication'', submitted to {\em IEEE Trans. on Information Theory}. 
+%\vspace*{2mm}
+%\item {\bfseries Shang Li}, Xiaoou Li, Xiaodong Wang, and Jingchen Liu, ``Sequential Hypothesis Testing with Usage-Constrained Online Sensor Selection'', submitted to {\em IEEE Transactions on Information Theory}.
+%\vspace*{2mm}
+%
+%\item Ziyu Guo, {\bfseries Shang Li}, Xiaodong Wang, and Wei Heng, ``Distributed Point-Based Gaussian Approximation Filtering for Forecasting-Aided State Estimation in Power Systems'', to appear, {\em IEEE Transactions on Power Systems}.
+%\vspace*{2mm}
+%
+%\item Yasin Y{\i}lmaz, {\bfseries Shang Li}, and Xiaodong Wang, ``Sequential Joint Detection and Estimation: Optimum Tests and Applications'', submitted to {\em IEEE Transactions on Signal Processing}. 
+%\vspace*{2mm}
+%\item Leian Chen, {\bfseries Shang Li}, and Xiaodong Wang, ``Multi-Meter Quickest Fault Detection in Photovoltaic Systems'', submitted to {\em IEEE Transactions on Smart Grid}. 
+%
+%%          <h3 style="margin-left: -38px"> In process: </h3>
+%%          <li style="margin-bottom: 12px"><p><strong>Shang Li</strong>, Xiaoou Li, Xiaodong Wang, and Jingchen Liu</p><p> "Sequential Hypothesis Testing with Usage-Constrained Sensor Selection". </p>
+%\end{enumerate}
+%\vspace*{1mm}
+%\subsection{Conference Papers \& Presentations}
+%\vspace*{1mm}
+%\begin{enumerate}
+%\item {\bfseries Shang Li}, Xiaoou Li, Xiaodong Wang and Jingchen Liu, ``Multi-Sensor Generalized Sequential Probability Ratio Test Using Level-Triggered Sampling'', Global SIP, 15-18 Dec., Orlando, FL, 2015. Also presented in 2015-2016 Columbia Statistics Student Seminar (invited).
+%\vspace*{2mm}
+%\item {\bfseries Shang Li}, Yasin Y{\i}lmaz, and Xiaodong Wang, ``Joint Composite Detection and Bayesian Estimation: A Neyman-Pearson Approach'', Global SIP, 15-18 Dec., Orlando, FL, 2015.
+%\vspace*{2mm}
+% \item {\bfseries Shang Li} and Xiaodong Wang, ``Sequential Cyber-Attack Detection in the Large-Scale Smart Grid System'', IEEE Int. Conf. on Smart Grid Communications, 2-5 Nov., Miami, FL, 2015.
+% \vspace*{2mm}
+%\item {\textbf{Shang Li} and Xiaodong Wang, ``Monitoring Disturbances in Smart Grids Using Distributed Sequential Change Detection'', {in proc. of the $5$th IEEE International Workshop on Computational Advances in Multi-Sensor Adaptive Processing}. --- {\bfseries Finalist of the Best Student Paper.}}
+%\vspace*{2mm}
+%\item {\textbf{Shang Li}, Matthew R. McKay and Yang Chen, ``Characterizing the mutual information distribution of MIMO systems: Beyond the Gaussian approximation'', {in proc. of the $46$th Annual Asilomar Conference on Signals, Systems and Computers}.}
+%\vspace*{2mm}
+%\item {\textbf{Shang Li}, Yang Chen, and Matthew R. McKay, ``Mutual
+%information distribution of interference-limited {MIMO}: A joint
+%{C}oulomb {F}luid and Painlev\'{e} based approach'', {in proc. of the $45$th Annual Asilomar Conference}. --- {\bfseries Finalist of the Best Student Paper}}. See \href{http://www.asilomarssc.org/asil11/prog11/StudentFinalists.pdf}{\underline{here}}.
+%\end{enumerate}
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\section{Invited Presentations}
+%{\color{color1} Distributed Sequential Hypothesis Testing Based on Message-Passing over the Network}
+\cvitem{Oct 2019}{International Conference on Similarity Search and Applications, Neward, NJ}
+\cvitem{Jul 2019}{ACM SIGIR Workshop on eCommerce, Paris, France}
+\cvitem{Nov 2018}{INFORMS, San Francisco, CA}
+\cvitem{Jul 2018}{ACM SIGIR Workshop on eCommerce, Ann Arbor, MI}
+\cvitem{Jul 2016}{SIAM Annual Meeting, Boston, MA}
+\cvitem{Jan 2015}{Microsoft Research, New York, NY}
+\cvitem{Nov 2014}{INFORMS, San Francisco, CA}
+\cvitem{Jun 2014}{ International Conference on Machine Learning, Beijing, China}
+\cvitem{May 2014}{SIAM Conference on Optimization, San Diego, CA}
+\cvitem{Feb 2014}{Department of Math, UCLA, Los Angeles, CA}
+
+\section{Academic Services}
+\vspace*{1mm}
+\subsection{\color{color1} Reviews for Journals  (19 invitations)}
+\vspace{-5mm}
+\cvitem{}{\begin{itemize}
+				\item IEEE Transactions: Pattern Analysis and Machine Intelligence (3), Computational Imaging (1), Neural Networks and Learning Systems (1)
+						\item IEEE Access (2)
+		\item SIAM Journals: Imaging Sciences (1), Scientific Computing (1), Matrix Analysis and Applications (1)
+		\item Neurocomputing (3)
+		\item Pattern Recognition (2)
+		\item Journal of Visual Communication and Image Representation (1)
+		\item Math Programming (1)
+		\item Pacific Journal of Optimization (1)
+		\item Journal of Computational Mathmetics (1)
+		%\item KSII Transactions on Internet and Information Systems
+\end{itemize}}
+\vspace*{-4mm}
+\subsection{\color{color1} Reviews for Conferences (8 invitations)}
+\cvitem{}{SDM 2022, KDD 2020 \& 2019, AAAI 2021 \& 2019, CDC 2019 \& 2014, STOC 2016}
+
+%
+%\cvitem{Feb 2020}{Program Committee (PC) member of Research for ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)}
+%\cvitem{Oct 2019}{Reviewer for IEEE Transactions on Computational Imaging}
+%\cvitem{Oct 2019}{Reviewer for Journal of Visual Communication and Image Representation (JVCI)}
+%\cvitem{Sep 2019}{Reviewer for IEEE Access}
+%\cvitem{Aug 2019}{Reviewer for Neurocomputing}
+%\cvitem{Jun 2019}{Reviewer for Pattern Recognition}
+%\cvitem{Mar 2019}{Reviewer for IEEE Conference on Decision and Control (CDC)}
+%\cvitem{Mar 2019}{Reviewer for IEEE Access}
+%\cvitem{Feb 2019}{Program Committee (PC) member of Research for ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)}
+%\cvitem{Feb 2019}{Reviewer for Neurocomputing}
+%\cvitem{Feb 2019}{Reviewer for Pattern Recognition}
+%\cvitem{Feb 2019}{Reviewer for Journal of Visual Communication and Image Representation (JVCI)}
+%\cvitem{Jan 2019}{Reviewer for  Neurocomputing}
+%\cvitem{Jan 2019}{Reviewer for  IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)}
+%\cvitem{Aug 2018}{Reviewer for Journal of Computational Mathematics (JCM)}
+%\cvitem{Aug 2018}{Reviewer for  IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)}
+%\cvitem{Jul 2018}{Member of Program Committee for AAAI Conference on Artificial Intelligence (AAAI)}
+%\cvitem{Jul 2018}{Reviewer for SIAM Journal on Matrix Analysis and Applications (SIMAX)}
+%\cvitem{Apr 2018}{Reviewer for SIAM Journal on Imaging Sciences (SIIMS)}
+%\cvitem{Sep 2017}{Reviewer for SIAM Journal on Scientific Computing (SISC)}
+%\cvitem{Dec 2016}{Reviewer for ACM Symposium on the Theory of Computing (STOC)}
+%\cvitem{Nov 2014}{Reviewer for Pacific Journal of Optimization (PJO)}
+%\cvitem{Aug 2014}{Reviewer for  IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)}
+%\cvitem{Aug 2014}{Reviewer for  Math Programming}
+%\cvitem{Apr 2014}{Reviewer for IEEE Conference on Decision and Control (CDC)}
+
+%\textsc{\subsection{\color{color1} Reviews for Journals} %(26 invitations)}
+%\cvitem{}{\begin{itemize}
+%\item SIAM Journal on Matrix Analysis and Applications (SIMAX)
+%\item SIAM Journal on Imaging Sciences (SIIMS)
+%\item SIAM Journal on Scientific Computing (SISC)
+%\item IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
+%\item Math Programming
+%\item Pacific Journal of Optimization (PJO)
+%\end{itemize}}
+%
+%\subsection{\color{color1} Conference Program Committee} %(26 invitations)}
+%\cvitem{}{\begin{itemize}
+%		\item AAAI Conference on Artificial Intelligence (AAAI), 2019
+%\end{itemize}}
+%
+%\subsection{\color{color1} Reviews for Conferences}% (8 invitations)}
+%\cvitem{}{\begin{itemize}
+%\item ACM Symposium on the Theory of Computing (STOC), 2017
+%\item IEEE Conference on Decision and Control (CDC), 2014
+%\end{itemize}}}
+%\cventry{2012--Present}{1\textsuperscript{st} Year Analyst}{\textsc{Lehman Brothers}}{Los Angeles}{}{Developed spreadsheets for risk analysis on exotic derivatives on a wide array of commodities (ags, oils, precious and base metals), managed blotter and secondary trades on structured notes, liaised with Middle Office, Sales and Structuring for bookkeeping.
+%\newline{}\newline{}
+%Detailed achievements:
+%\begin{itemize}
+%\item Learned how to make amazing coffee
+%\item Finally determined the reason for \textsc{PC LOAD LETTER}:
+%\begin{itemize}
+%\item Paper jam
+%\item Software issues:
+%\begin{itemize}
+%\item Word not sending the correct data to printer
+%\item Windows trying to print in letter format
+%\end{itemize}
+%\item Coffee spilled inside printer
+%\end{itemize}
+%\item Broke the office record for number of kitten pictures in cubicle
+%\end{itemize}}
+
+%------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Awards \& Recognitions}
+\cvitem{2019}{Honoree of Elastic Search Cluster Award for Technology Innovation, Elastic \href{https://www.elastic.co/blog/drumroll-please-say-heya-to-the-2019-elastic-search-awards-honorees}{\color{blue}{[link]}}}
+\cvitem{2019}{Finalist, Caterpillar and INFORMS Analytics Society Innovative Applications of Analytics Award, the Analytics Society of the Institute for Operations Research and the Management Sciences (INFORMS) \href{http://meetings2.informs.org/wordpress/analytics2019/2019/01/07/a-machine-learning-approach-to-shipping-box-design/}{\color{blue}{[link]}}
+}
+\cvitem{2019}{Semi-Finalist, Franz Edelman Award, INFORMS
+}
+\cvitem{2014}{Class of 1988 Doctoral Fellowship, Columbia University}
+\cvitem{2014}{Travel Award, International Conference on Machine Learning (ICML)}
+\cvitem{2011}{Lee Kuan Yew Gold Medel, National Univeristy of Singapore}
+\cvitem{2011}{Singapore Mathematical Society Medal and Prize, National Univeristy of Singapore}
+\cvitem{2011}{Lijen Industrial Development Medals, National Univeristy of Singapore}
+\cvitem{2007-2010}{Deans Honor List, Faculty of Science, National Univeristy of Singapore}
+
+
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Computer Skills}
+%%\cvitem{Operating Systems}{Unix/Linux, Mac OS, Windows}
+%\cvitem{Programming Language}{Python, R,  Matlab, SQL, \LaTeX}
+%\cvitem{Software \& Solver}{Gurobi, CPLEX, Tensorflow, Elasticsearch, Solr, scikit-learn, XGBoost}
+
+\vspace{10mm}
+
+\emph{Last updated on {\today}.}
+
+%\textsc{Python} ,\, R, \, \textsc{Matlab}, \,\textsc{C}++, \, \LaTeX
+%\cvitem{Basic}{\textsc{C}++}
+%\cvitem{Intermediate}{\textsc{R}, \textsc{Mathematica}, \textsc{html}}
+%\cvitem{Advanced}{\textsc{Matlab},  \textsc{Maple}, \LaTeX}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\section{Referencees}
+%\vspace*{2mm}
+%\begin{itemize}
+%\item {\bfseries Phyllis Weiss} (Director of Inventive Science, AT\&T Labs)\\Email: phyllisweiss@att.com
+%\vspace*{2mm}
+%
+%\item {\bfseries Prof. Xiaodong Wang} (Professor, Department of Electrical Engineering, Columbia University)\\Email: wangx@ee.columbia.edu
+%\vspace*{2mm}
+%\item {\bfseries Prof. Jingchen Liu} (Associate Professor, Department of Statistics, Columbia University)\\Email: jcliu@stat.columbia.edu
+%\vspace*{2mm}
+%\item {\bfseries  Prof. Matthew McKay} (Associate Professor, Department of Electronic and Computer Engineering, Hong Kong University of Science and Technology)\\Email: eemckay@ust.hk
+%\end{itemize}
+
+
+\end{document}
