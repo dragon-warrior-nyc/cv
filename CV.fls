@@ -1,11 +1,11 @@
-PWD /Users/mat/Dropbox/interview/CVlatex_Cun
+PWD /Users/mat/Library/CloudStorage/GoogleDrive-mucun1988@gmail.com/My Drive/cv
 INPUT /usr/local/texlive/2020/texmf.cnf
 INPUT /usr/local/texlive/2020/texmf-dist/web2c/texmf.cnf
 INPUT /usr/local/texlive/2020/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT /Users/mat/Dropbox/interview/CVlatex_Cun/CV.tex
-OUTPUT /Users/mat/Dropbox/interview/CVlatex_Cun/CV.log
-INPUT /Users/mat/Dropbox/interview/CVlatex_Cun/moderncv.cls
-INPUT /Users/mat/Dropbox/interview/CVlatex_Cun/moderncv.cls
+INPUT /Users/mat/Library/CloudStorage/GoogleDrive-mucun1988@gmail.com/My Drive/cv/CV.tex
+OUTPUT /Users/mat/Library/CloudStorage/GoogleDrive-mucun1988@gmail.com/My Drive/cv/CV.log
+INPUT /Users/mat/Library/CloudStorage/GoogleDrive-mucun1988@gmail.com/My Drive/cv/moderncv.cls
+INPUT /Users/mat/Library/CloudStorage/GoogleDrive-mucun1988@gmail.com/My Drive/cv/moderncv.cls
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/base/size11.clo
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/base/size11.clo
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map
@@ -55,21 +55,21 @@ INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/microtype/microtype-pdftex.de
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/microtype/microtype.cfg
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/microtype/microtype.cfg
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/microtype/microtype.cfg
-INPUT /Users/mat/Dropbox/interview/CVlatex_Cun/moderncvcompatibility.sty
-INPUT /Users/mat/Dropbox/interview/CVlatex_Cun/moderncvcompatibility.sty
+INPUT /Users/mat/Library/CloudStorage/GoogleDrive-mucun1988@gmail.com/My Drive/cv/moderncvcompatibility.sty
+INPUT /Users/mat/Library/CloudStorage/GoogleDrive-mucun1988@gmail.com/My Drive/cv/moderncvcompatibility.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/bigfoot/suffix.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/bigfoot/suffix.sty
-INPUT /Users/mat/Dropbox/interview/CVlatex_Cun/tweaklist.sty
-INPUT /Users/mat/Dropbox/interview/CVlatex_Cun/tweaklist.sty
-INPUT /Users/mat/Dropbox/interview/CVlatex_Cun/moderncvstyleclassic.sty
-INPUT /Users/mat/Dropbox/interview/CVlatex_Cun/moderncvstyleclassic.sty
+INPUT /Users/mat/Library/CloudStorage/GoogleDrive-mucun1988@gmail.com/My Drive/cv/tweaklist.sty
+INPUT /Users/mat/Library/CloudStorage/GoogleDrive-mucun1988@gmail.com/My Drive/cv/tweaklist.sty
+INPUT /Users/mat/Library/CloudStorage/GoogleDrive-mucun1988@gmail.com/My Drive/cv/moderncvstyleclassic.sty
+INPUT /Users/mat/Library/CloudStorage/GoogleDrive-mucun1988@gmail.com/My Drive/cv/moderncvstyleclassic.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/lm/lmodern.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/marvosym/umvs.fd
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/marvosym/umvs.fd
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/marvosym/umvs.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/jknappen/ec/ecrm1440.tfm
-INPUT /Users/mat/Dropbox/interview/CVlatex_Cun/moderncvcolorblue.sty
-INPUT /Users/mat/Dropbox/interview/CVlatex_Cun/moderncvcolorblue.sty
+INPUT /Users/mat/Library/CloudStorage/GoogleDrive-mucun1988@gmail.com/My Drive/cv/moderncvcolorblue.sty
+INPUT /Users/mat/Library/CloudStorage/GoogleDrive-mucun1988@gmail.com/My Drive/cv/moderncvcolorblue.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/ragged2e/ragged2e.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/ragged2e/ragged2e.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/ms/everysel.sty
@@ -134,9 +134,9 @@ INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
-INPUT /Users/mat/Dropbox/interview/CVlatex_Cun/CV.aux
-INPUT /Users/mat/Dropbox/interview/CVlatex_Cun/CV.aux
-OUTPUT /Users/mat/Dropbox/interview/CVlatex_Cun/CV.aux
+INPUT /Users/mat/Library/CloudStorage/GoogleDrive-mucun1988@gmail.com/My Drive/cv/CV.aux
+INPUT /Users/mat/Library/CloudStorage/GoogleDrive-mucun1988@gmail.com/My Drive/cv/CV.aux
+OUTPUT /Users/mat/Library/CloudStorage/GoogleDrive-mucun1988@gmail.com/My Drive/cv/CV.aux
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/lm/t1lmr.fd
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/lm/t1lmr.fd
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/ec-lmr10.tfm
@@ -154,14 +154,14 @@ INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/latex/refcount/refcount.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 INPUT /usr/local/texlive/2020/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
-INPUT /Users/mat/Dropbox/interview/CVlatex_Cun/CV.out
-INPUT /Users/mat/Dropbox/interview/CVlatex_Cun/CV.out
-INPUT /Users/mat/Dropbox/interview/CVlatex_Cun/CV.out
-INPUT /Users/mat/Dropbox/interview/CVlatex_Cun/CV.out
-OUTPUT /Users/mat/Dropbox/interview/CVlatex_Cun/CV.pdf
-INPUT /Users/mat/Dropbox/interview/CVlatex_Cun/CV.out
-INPUT /Users/mat/Dropbox/interview/CVlatex_Cun/CV.out
-OUTPUT /Users/mat/Dropbox/interview/CVlatex_Cun/CV.out
+INPUT /Users/mat/Library/CloudStorage/GoogleDrive-mucun1988@gmail.com/My Drive/cv/CV.out
+INPUT /Users/mat/Library/CloudStorage/GoogleDrive-mucun1988@gmail.com/My Drive/cv/CV.out
+INPUT /Users/mat/Library/CloudStorage/GoogleDrive-mucun1988@gmail.com/My Drive/cv/CV.out
+INPUT /Users/mat/Library/CloudStorage/GoogleDrive-mucun1988@gmail.com/My Drive/cv/CV.out
+OUTPUT /Users/mat/Library/CloudStorage/GoogleDrive-mucun1988@gmail.com/My Drive/cv/CV.pdf
+INPUT /Users/mat/Library/CloudStorage/GoogleDrive-mucun1988@gmail.com/My Drive/cv/CV.out
+INPUT /Users/mat/Library/CloudStorage/GoogleDrive-mucun1988@gmail.com/My Drive/cv/CV.out
+OUTPUT /Users/mat/Library/CloudStorage/GoogleDrive-mucun1988@gmail.com/My Drive/cv/CV.out
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/ec-lmr10.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/ec-lmro10.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/ec-lmri10.tfm
@@ -203,9 +203,9 @@ INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/ec-lmr12.tfm
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/ec-lmri12.tfm
 INPUT /usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/tfm/public/lm/ec-lmri10.tfm
-INPUT /Users/mat/Dropbox/interview/CVlatex_Cun/CV.aux
-INPUT /Users/mat/Dropbox/interview/CVlatex_Cun/CV.out
-INPUT /Users/mat/Dropbox/interview/CVlatex_Cun/CV.out
+INPUT /Users/mat/Library/CloudStorage/GoogleDrive-mucun1988@gmail.com/My Drive/cv/CV.aux
+INPUT /Users/mat/Library/CloudStorage/GoogleDrive-mucun1988@gmail.com/My Drive/cv/CV.out
+INPUT /Users/mat/Library/CloudStorage/GoogleDrive-mucun1988@gmail.com/My Drive/cv/CV.out
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx10.pfb
 INPUT /usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr10.pfb
