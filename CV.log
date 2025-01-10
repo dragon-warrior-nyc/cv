@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  9 JAN 2025 23:47
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  10 JAN 2025 10:45
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -477,32 +477,32 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 {/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 304.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\@ifnextchar' on input line 319.
+(hyperref)                removing `\@ifnextchar' on input line 308.
 
 [3]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 441.
- [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 441.
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\@ifnextchar' on input line 323.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 445.
+[4]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 445.
  (/Users/mat/Library/CloudStorage/GoogleDrive-mucun1988@gmail.com/My Drive/cv/CV.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 441.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 441.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 445.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 445.
 Package rerunfilecheck Info: File `CV.out' has not changed.
 (rerunfilecheck)             Checksum: CF4E13DF5FC33129642FF52DAB6F9972;1480.
  ) 
 Here is how much of TeX's memory you used:
- 12772 strings out of 480608
- 200167 string characters out of 5903631
- 592368 words of memory out of 5000000
+ 12784 strings out of 480608
+ 200297 string characters out of 5903631
+ 591368 words of memory out of 5000000
  28355 multiletter control sequences out of 15000+600000
- 597771 words of font info for 100 fonts, out of 8000000 for 9000
+ 598363 words of font info for 106 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 46i,13n,69p,846b,397s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 46i,12n,69p,846b,397s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2020/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmr17.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmri10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmri12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/lm/lmro10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on "/Users/mat/Library/CloudStorage/GoogleDrive-mucun1988@gmail.com/My Drive/cv/CV.pdf" (4 pages, 212746 bytes).
+Output written on "/Users/mat/Library/CloudStorage/GoogleDrive-mucun1988@gmail.com/My Drive/cv/CV.pdf" (4 pages, 214391 bytes).
 PDF statistics:
  107 PDF objects out of 1000 (max. 8388607)
  91 compressed objects within 1 object stream
